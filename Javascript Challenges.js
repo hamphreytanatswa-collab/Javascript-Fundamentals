@@ -50,13 +50,13 @@ for (let i = numbers.length - 1; i >= 0; i--) {
 /********************************************************************** */
 // 4. Count Even Numbers in an Array
 
-let numbers = [5, 2, 7, 8, 12, 15, 18, 25];
+let nums = [5, 2, 7, 8, 12, 15, 18, 25];
 
 let count = 0;
 
-for (let i = 0; i < numbers.length; i++) {
+for (let i = 0; i < nums.length; i++) {
 
-    if (numbers[i] % 2 === 0) {
+    if (nums[i] % 2 === 0) {
         count++;
     }
 
@@ -68,14 +68,14 @@ console.log("Even numbers:", count);
 
 // 5. Find the Smallest Number
 
-let numbers = [12, 5, 30, 2, 18, 1, 40];
+let num = [12, 5, 30, 2, 18, 1, 40];
 
-let smallest = numbers[0];
+let smallest = num[0];
 
-for (let i = 1; i < numbers.length; i++) {
+for (let i = 1; i < num.length; i++) {
 
-    if (numbers[i] < smallest) {
-        smallest = numbers[i];
+    if (num[i] < smallest) {
+        smallest = num[i];
     }
 
 }
@@ -86,14 +86,14 @@ console.log("Smallest number:", smallest);
 
 // 6. Remove Duplicates from an Array
 
-let numbers = [1, 2, 2, 3, 4, 4, 5, 5, 6, 6];
+let duplicates = [1, 2, 2, 3, 4, 4, 5, 5, 6, 6];
 
 let unique = [];
 
-for (let i = 0; i < numbers.length; i++) {
+for (let i = 0; i < duplicates.length; i++) {
 
-    if (!unique.includes(numbers[i])) {
-        unique.push(numbers[i]);
+    if (!unique.includes(duplicates[i])) {
+        unique.push(duplicates[i]);
     }
 
 }
@@ -104,23 +104,23 @@ console.log(unique);
 
 // 7. Find the Second Largest Number
 
-let numbers = [7, 20, 15, 40, 12, 35];
+let secMax = [7, 20, 15, 40, 12, 35];
 
 let largest = -Infinity;
 let secondLargest = -Infinity;
 
-for (let i = 0; i < numbers.length; i++) {
+for (let i = 0; i < secMax.length; i++) {
 
-    if (numbers[i] > largest) {
+    if (secMax[i] > largest) {
 
         secondLargest = largest;
-        largest = numbers[i];
+        largest = secMax[i];
 
     }
 
-    else if (numbers[i] > secondLargest && numbers[i] !== largest) {
+    else if (secMax[i] > secondLargest && secMax[i] !== largest) {
 
-        secondLargest = numbers[i];
+        secondLargest = secMax[i];
 
     }
 
@@ -133,16 +133,16 @@ console.log("Second Largest:", secondLargest);
 
 // Bonus Challenge 8 – Find the Largest Number
 
-let numbers = [12, 50, 7, 90, 35, 20];
+let maxNum = [12, 50, 7, 90, 35, 20];
 
-let largest = numbers[0];
+let lrgest = maxNum[0];
 
-for (let i = 1; i < numbers.length; i++) {
+for (let i = 1; i < maxNum.length; i++) {
 
-    if (numbers[i] > largest) {
-        largest = numbers[i];
+    if (maxNum[i] > largest) {
+        lrgest = maxNum[i];
     }
 
 }
 
-console.log("Largest number:", largest);
+console.log("Largest number:", lrgest);
