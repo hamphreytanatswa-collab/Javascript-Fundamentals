@@ -91,7 +91,10 @@ let celcius = Number(prompt("What is the temperature in Degrees celcius?")), fah
 alert("Fahrenheit temperature is: " + fahren);
 console.log(fahren);
 
-
+//15.Ask for a number and display its square.
+let numSqre = Number(prompt("Enter number to get the Square"));
+let sqre = numSqre*numSqre;
+alert("Your square is: " + sqre);
 
 
 
