@@ -168,6 +168,21 @@ else{
     alert(year % 4 === 0? "The year is a leap year" : "The year is not a leap year");
 } 
 
+// 22.Determine whether a number is divisible by 5.
+
+let numByFive = Number(prompt("Enter your number:"));
+
+switch(true){
+    case(isNaN):
+        alert("The number is invalid");
+        break;
+    case(numByFive % 5 === 0):
+        alert("The number is Divisible by 5")
+        break;
+    case(numByFive % 5 !==0):
+        alert("The number is not divisible by 5");
+        break;
+    }
 
 
 
