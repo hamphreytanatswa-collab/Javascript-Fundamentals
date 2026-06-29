@@ -309,7 +309,14 @@ for (let i = 1; i <= 100; i++) {
     }
 }
 
-
+// 41 Nested:
+for (let i = 1; i <= 5; i++) { 
+    let row = ""; 
+    for(let j = 0; j < 5; j++) {
+        row = row + i; 
+    }
+    console.log(row); 
+}
 
 
 
