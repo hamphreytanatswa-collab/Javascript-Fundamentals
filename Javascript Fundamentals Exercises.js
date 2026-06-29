@@ -113,8 +113,6 @@ else{
     alert("Invalid number try again!");
 }
 
-
-
 //17.Determine whether a number is even or odd.
 
 let num8 = Number(prompt("What's your number?"));
@@ -133,3 +131,24 @@ if(isNaN(a && b)){
     alert("Invalid number, try again");
 }else{
     alert(a>b ? "Greater number is: " + a : "Greater number is: " + b );
+}
+
+//19.Check whether a person is eligible to vote (18+).
+
+let myAge = Number(prompt("Enter your age?"));
+
+if(isNaN(myAge)){
+    alert("That's not right, try again");
+}
+else {
+    alert(myAge >= 18? "You can Vote" : "You're too young to vote");
+}
+
+
+
+
+
+
+
+
+
