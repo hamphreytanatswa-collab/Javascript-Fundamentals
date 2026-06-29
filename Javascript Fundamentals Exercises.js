@@ -337,5 +337,15 @@ for (let i = 5; i >= 1; i--) {
     console.log(row); 
 }
 
+// 45 Nested:
+for (let i = 1; i <= 5; i++) { 
+    let row = ""; 
+    for(let j = 1; j <= 5; j++) {
+        row = row + (i * j) + "\t"; 
+    }
+    console.log(row); 
+}
 
-
+// 46 Arrays:
+let fruits = ["apple", "banana", "cherry", "date", "elderberry"]; 
+console.log(fruits);
