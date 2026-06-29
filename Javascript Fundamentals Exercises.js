@@ -126,4 +126,10 @@ else{
     alert(num8 % 2 === 0 ? "Your Number is Even!":"Your Number is Odd!");
 } //You can use else if then else but this is shorter 
 
+//18.Compare two numbers and print the larger one.
 
+let a = Number(prompt("Enter 1st number:")), b = Number(prompt("Enter 2nd number:"));
+if(isNaN(a && b)){
+    alert("Invalid number, try again");
+}else{
+    alert(a>b ? "Greater number is: " + a : "Greater number is: " + b );
