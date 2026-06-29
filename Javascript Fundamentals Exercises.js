@@ -21,3 +21,9 @@ let num1 = 5;
 let num2 = 4;
 let sum = num1 + num2;
 //console.log(sum);
+
+//5.Store your favorite color and print a sentence using it.
+
+const favouriteColor = "navy-blue";
+
+console.log(`When I see a ${favouriteColor} isuzu SUV I go nuts, its just the perfect combination.`)
