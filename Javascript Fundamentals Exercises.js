@@ -97,6 +97,21 @@ let sqre = numSqre*numSqre;
 alert("Your square is: " + sqre);
 
 
+//3. CONDITIONAL STATEMENTS
+
+//16.Determine whether user number is positive or negative.
+
+let num7 = Number(prompt("Enter positive or negative number"));
+
+if (num7 < 0){
+    alert("Yournumber is a Negative");
+}
+else if(num7 >=0){
+    alert("Your number is a Positive");
+}
+else{
+    alert("Invalid number try again!");
+}
 
 
 
