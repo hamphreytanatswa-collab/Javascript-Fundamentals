@@ -115,4 +115,15 @@ else{
 
 
 
+//17.Determine whether a number is even or odd.
+
+let num8 = Number(prompt("What's your number?"));
+
+if (isNaN(num8)){
+    alert("invalid number try again");
+}
+else{
+    alert(num8 % 2 === 0 ? "Your Number is Even!":"Your Number is Odd!");
+} //You can use else if then else but this is shorter 
+
 
