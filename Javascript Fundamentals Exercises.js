@@ -284,3 +284,12 @@ for (let i = 1; i <= 50; i++) {
         count = count + 1;
     }
 }
+
+
+// 38 Loops:
+for (let i = 1; i <= 10; i++) {
+    console.log(i * 7);
+}
+
+
+
