@@ -190,6 +190,7 @@ switch(true){
 
 
 // 23 Conditionals:
+let score = Number(prompt("Enter your score:"));
 if (score >= 90) console.log("A");
 else if (score >= 80) console.log("B");
 else if (score >= 70) console.log("C");
@@ -210,6 +211,7 @@ if (num >= 1 && num <= 100) console.log("In range");
 if (username === "admin" && password === "123") console.log("Logged in");
 
 // 28 Logical:
+let hasID = true;
 if (age >= 18 && hasID) console.log("Qualified");
 
 // 29 Logical:
@@ -231,7 +233,7 @@ for (let i = 2; i <= 20; i += 2) console.log(i);
 for (let i = 1; i <= 10; i++) console.log(5 * i);
 
 // 35 Loops:
-let sum = 0; for (let i = 1; i <= 100; i++) sum += i;
+let sum0 = 0; for (let i = 1; i <= 100; i++) sum0 += i;
 
 // 36 Loops:
 let fact = 1; for (let i = 1; i <= 5; i++) fact *= i;
