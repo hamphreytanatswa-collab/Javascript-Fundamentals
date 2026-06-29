@@ -193,7 +193,11 @@ else console.log("Fail");
 
 
 
-
+// 24 Conditionals:
+let char = 'a';
+if ('aeiou'.includes(char.toLowerCase())) {
+console.log("Vowel"
+)};
 
 
 
