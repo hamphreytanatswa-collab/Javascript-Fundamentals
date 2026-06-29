@@ -20,3 +20,23 @@ for (let i = 1; i <= 100; i++) {
     }
 
 }
+/********************************************************************** */
+
+// 2. Number Guessing Game
+let secretNumber = 7;
+let guess = 10;
+
+if (guess > secretNumber) {
+    console.log("Too High");
+}
+
+else if (guess < secretNumber) {
+    console.log("Too Low");
+}
+
+else {
+    console.log("Correct! You guessed the number.");
+}
+
+
+/********************************************************************** */
