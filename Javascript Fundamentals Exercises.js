@@ -189,15 +189,92 @@ switch(true){
     }
 
 
-// 23. Assign grades
+// 23 Conditionals:
+if (score >= 90) console.log("A");
+else if (score >= 80) console.log("B");
+else if (score >= 70) console.log("C");
+else console.log("Fail");
 
-// let grade = Number(prompt("Enter you subject grade"));
+// 24 Conditionals:
+let char = 'a';
+if ('aeiou'.includes(char.toLowerCase())) console.log("Vowel");
 
-// if(grade <)
+// 25 Conditionals:
+let s1 = 3, s2 = 4, s3 = 5;
+if (s1 + s2 > s3 && s1 + s3 > s2 && s2 + s3 > s1) console.log("Triangle");
 
+// 26 Logical:
+if (num >= 1 && num <= 100) console.log("In range");
 
-// funame = "vin";
-// console.log(funame);
+// 27 Logical:
+if (username === "admin" && password === "123") console.log("Logged in");
 
-// funame = funame + 1;
-// console.log(funame);
+// 28 Logical:
+if (age >= 18 && hasID) console.log("Qualified");
+
+// 29 Logical:
+if (num % 3 === 0 && num % 5 === 0) console.log("Divisible by 3 and 5");
+
+// 30 Logical:
+if (year % 100 === 0) console.log("Century year");
+
+// 31 Loops:
+for (let i = 1; i <= 10; i++) console.log(i);
+
+// 32 Loops:
+for (let i = 10; i >= 1; i--) console.log(i);
+
+// 33 Loops:
+for (let i = 2; i <= 20; i += 2) console.log(i);
+
+// 34 Loops:
+for (let i = 1; i <= 10; i++) console.log(5 * i);
+
+// 35 Loops:
+let sum = 0; for (let i = 1; i <= 100; i++) sum += i;
+
+// 36 Loops:
+let fact = 1; for (let i = 1; i <= 5; i++) fact *= i;
+
+// 37 Loops:
+let count = 0; for (let i = 1; i <= 50; i++) if (i % 3 === 0) count++;
+
+// 38 Loops:
+for (let i = 1; i <= 10; i++) console.log(i * 7);
+
+// 39 Loops:
+for (let i = 1; i <= 5; i++) console.log("*".repeat(i));
+
+// 40 Loops:
+for (let i = 1; i <= 100; i++) if (i % 3 === 0 && i % 5 === 0) console.log(i);
+
+// 41 Nested:
+for (let i = 1; i <= 5; i++) { let row = ""; for(let j=0; j<5; j++) row += i; console.log(row); }
+
+// 42 Nested:
+for (let i = 0; i < 5; i++) { let row = ""; for(let j=0; j<5; j++) row += "*"; console.log(row); }
+
+// 43 Nested:
+for (let i = 1; i <= 5; i++) { let row = ""; for(let j=1; j<=i; j++) row += j; console.log(row); }
+
+// 44 Nested:
+for (let i = 5; i >= 1; i--) { let row = ""; for(let j=5; j >= 6-i; j--) row += j; console.log(row); }
+
+// 45 Nested:
+for (let i = 1; i <= 5; i++) { let row = ""; for(let j=1; j<=5; j++) row += (i*j) + "\t"; console.log(row); }
+
+// 46 Arrays:
+let fruits = ["apple", "banana", "cherry", "date", "elderberry"]; console.log(fruits);
+
+// 47 Arrays:
+console.log(fruits[0]);
+
+// 48 Arrays:
+console.log(fruits[fruits.length - 1]);
+
+// 49 Arrays:
+for (let i = 0; i < fruits.length; i++) console.log(fruits[i]);
+
+// 50 Arrays:
+let nums = [1, 5, 3, 9, 2]; let max = nums[0];
+for (let i = 1; i < nums.length; i++) if (nums[i] > max) max = nums[i];
