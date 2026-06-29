@@ -231,6 +231,12 @@ if (num % 3 === 0 && num % 5 === 0) {
     console.log("Not divisible by both");
 }
 
+// 30 Logical:
+if (year % 100 === 0) {
+    console.log("Century year");
+} else {
+    console.log("Not a century year");
+}
 
 
 
