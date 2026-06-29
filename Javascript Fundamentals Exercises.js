@@ -291,5 +291,13 @@ for (let i = 1; i <= 10; i++) {
     console.log(i * 7);
 }
 
+// 39 Loops:
+for (let i = 1; i <= 5; i++) {
+    let stars = "";
+    for (let j = 1; j <= i; j++) {
+        stars = stars + "*";
+    }
+    console.log(stars);
+}
 
 
