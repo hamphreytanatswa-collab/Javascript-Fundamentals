@@ -8,3 +8,9 @@ const name = "Hamphrey";
 
 let age = 20;
 console.log(age);
+
+//3.Create variables for length and width and calculate the area of a rectangle.
+
+let length = 5, width = 2;
+let area = length * width;
+//console.log(area);
