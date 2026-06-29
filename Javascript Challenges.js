@@ -130,3 +130,19 @@ console.log("Largest:", largest);
 console.log("Second Largest:", secondLargest);
 
 /********************************************************************** */
+
+// Bonus Challenge 8 – Find the Largest Number
+
+let numbers = [12, 50, 7, 90, 35, 20];
+
+let largest = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+
+    if (numbers[i] > largest) {
+        largest = numbers[i];
+    }
+
+}
+
+console.log("Largest number:", largest);
