@@ -356,7 +356,10 @@ console.log(fruits[0]);
 // 48 Arrays:
 console.log(fruits[fruits.length - 1]);
 
-
+// 49 Arrays:
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
 
 
 
