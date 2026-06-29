@@ -36,6 +36,13 @@ const lastName = "Hasashi";
 const fullname = firstName + " " + lastName
 //console.log(fullname);
 
+//7.Find the remainder when 17 is divided by 3.
 
+let remainder = 17%3;
+//console.log(remainder);
 
+//8.Convert a string "25" into a number.
 
+let string = "25";
+let num = parseInt(string); // Or let num = Number(string)
+//console.log(num, typeof(num))
