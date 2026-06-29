@@ -57,3 +57,25 @@ let swap = x;
 x = y;
 y = swap;
 //console.log(x,y,swap)
+
+//10.Calculate the average of three numbers.
+let num4 = 4;
+let num5 = 6;
+let num6 = 8;
+average = num4 + num5 + num6 / 3;
+console.log(average);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
