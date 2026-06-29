@@ -65,6 +65,13 @@ let num6 = 8;
 average = num4 + num5 + num6 / 3;
 console.log(average);
 
+// INPUT & OUTPUT
+
+//11. Ask the user for their name and greet them.
+
+let username = prompt("What's your name newbie?");
+//console.log(username);
+alert("Nice to meet you " + username +".");
 
 
 
