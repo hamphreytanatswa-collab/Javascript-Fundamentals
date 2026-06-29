@@ -85,7 +85,11 @@ let sum1 = alert("Sum: " + number1 + number2)
 let userAge = parseInt(prompt("What's your age user?")), response = alert("You are " + userAge + "years old. Got it!");
 //console.log(userAge);
 
+//14.Ask for a temperature in Celsius and convert it to Fahrenheit.
 
+let celcius = Number(prompt("What is the temperature in Degrees celcius?")), fahren = (celcius * 9/5) + 32;
+alert("Fahrenheit temperature is: " + fahren);
+console.log(fahren);
 
 
 
