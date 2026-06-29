@@ -224,7 +224,12 @@ if (age >= 18 && hasID === true) {
     console.log("Not qualified");
 }
 
-
+// 29 Logical:
+if (num % 3 === 0 && num % 5 === 0) {
+    console.log("Divisible by 3 and 5");
+} else {
+    console.log("Not divisible by both");
+}
 
 
 
