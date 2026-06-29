@@ -27,3 +27,15 @@ let sum = num1 + num2;
 const favouriteColor = "navy-blue";
 
 console.log(`When I see a ${favouriteColor} isuzu SUV I go nuts, its just the perfect combination.`)
+
+//6.Create variables for first name and last name and combine them.
+
+const firstName = "Hanzo";
+const lastName = "Hasashi";
+
+const fullname = firstName + " " + lastName
+//console.log(fullname);
+
+
+
+
