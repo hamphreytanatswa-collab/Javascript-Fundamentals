@@ -216,6 +216,13 @@ if (username === "admin" && password === "123") {
     console.log("Login failed");
 }
 
+// 28 Logical:
+let hasID = true;
+if (age >= 18 && hasID === true) {
+    console.log("Qualified");
+} else {
+    console.log("Not qualified");
+}
 
 
 
