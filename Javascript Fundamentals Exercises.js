@@ -264,4 +264,9 @@ for (let i = 1; i <= 10; i++) {
     console.log(5 * i);
 }
 
+// 35 Loops:
+let sum0 = 0; 
+for (let i = 1; i <= 100; i++) {
+    sum0 = sum0 + i;
+}
 
