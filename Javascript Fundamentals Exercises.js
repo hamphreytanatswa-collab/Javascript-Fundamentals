@@ -204,3 +204,22 @@ let s1 = 3, s2 = 4, s3 = 5;
 if (s1 + s2 > s3 && s1 + s3 > s2 && s2 + s3 > s1)
     { console.log("Triangle")};
 
+// 26 Logical:
+if (num >= 1 && num <= 100)
+    { console.log("In range")};
+
+
+// 27 Logical:
+if (username === "admin" && password === "123") {
+    console.log("Logged in");
+} else {
+    console.log("Login failed");
+}
+
+
+
+
+
+
+
+
