@@ -80,7 +80,10 @@ let number2 = Number(prompt("Enter you 2nd number"));
 let sum1 = alert("Sum: " + number1 + number2)
 //console.log(number1 + number2);
 
+//13.Ask for a person's age and display it
 
+let userAge = parseInt(prompt("What's your age user?")), response = alert("You are " + userAge + "years old. Got it!");
+//console.log(userAge);
 
 
 
