@@ -156,6 +156,17 @@ else {
     alert(mark>=50? "You passed" : "You failed");
 }
 
+//21Check whether a year is a leap year.
+
+let year = Number(prompt("Enter your year:"));
+// alert(isNaN(year)? "The year is invalid": alert(year % 4 === 0? "The year is a leap year" : "The year is not a leap year"));
+
+if(isNaN(year)){
+    alert("The year is invalid")
+}
+else{
+    alert(year % 4 === 0? "The year is a leap year" : "The year is not a leap year");
+} 
 
 
 
