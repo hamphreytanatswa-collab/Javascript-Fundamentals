@@ -199,5 +199,8 @@ if ('aeiou'.includes(char.toLowerCase())) {
 console.log("Vowel"
 )};
 
-
+// 25 Conditionals:
+let s1 = 3, s2 = 4, s3 = 5;
+if (s1 + s2 > s3 && s1 + s3 > s2 && s2 + s3 > s1)
+    { console.log("Triangle")};
 
