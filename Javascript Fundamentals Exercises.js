@@ -277,3 +277,10 @@ for (let i = 1; i <= 5; i++) {
     fact = fact * i;
 }
 
+// 37 Loops:
+let count = 0; 
+for (let i = 1; i <= 50; i++) {
+    if (i % 3 === 0) {
+        count = count + 1;
+    }
+}
