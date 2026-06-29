@@ -66,6 +66,21 @@ console.log("Even numbers:", count);
 
 /********************************************************************** */
 
+// 5. Find the Smallest Number
+
+let numbers = [12, 5, 30, 2, 18, 1, 40];
+
+let smallest = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+
+    if (numbers[i] < smallest) {
+        smallest = numbers[i];
+    }
+
+}
+
+console.log("Smallest number:", smallest);
 
 /********************************************************************** */
 
