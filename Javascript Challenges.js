@@ -102,6 +102,31 @@ console.log(unique);
 
 /********************************************************************** */
 
+// 7. Find the Second Largest Number
 
+let numbers = [7, 20, 15, 40, 12, 35];
+
+let largest = -Infinity;
+let secondLargest = -Infinity;
+
+for (let i = 0; i < numbers.length; i++) {
+
+    if (numbers[i] > largest) {
+
+        secondLargest = largest;
+        largest = numbers[i];
+
+    }
+
+    else if (numbers[i] > secondLargest && numbers[i] !== largest) {
+
+        secondLargest = numbers[i];
+
+    }
+
+}
+
+console.log("Largest:", largest);
+console.log("Second Largest:", secondLargest);
 
 /********************************************************************** */
