@@ -361,5 +361,15 @@ for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
 
+// 50 Arrays:
+let nums = [1, 5, 3, 9, 2]; 
+let max = nums[0];
+for (let i = 1; i < nums.length; i++) {
+    if (nums[i] > max) {
+        max = nums[i];
+    } else {
+        // Current number is not larger than max
+    }
+}
 
 
