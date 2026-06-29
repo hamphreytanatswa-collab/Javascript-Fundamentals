@@ -270,3 +270,10 @@ for (let i = 1; i <= 100; i++) {
     sum0 = sum0 + i;
 }
 
+
+// 36 Loops:
+let fact = 1; 
+for (let i = 1; i <= 5; i++) {
+    fact = fact * i;
+}
+
