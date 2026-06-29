@@ -353,7 +353,8 @@ console.log(fruits);
 // 47 Arrays:
 console.log(fruits[0]);
 
-
+// 48 Arrays:
+console.log(fruits[fruits.length - 1]);
 
 
 
