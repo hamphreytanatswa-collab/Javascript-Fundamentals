@@ -46,3 +46,14 @@ let remainder = 17%3;
 let string = "25";
 let num = parseInt(string); // Or let num = Number(string)
 //console.log(num, typeof(num))
+
+
+//9.Swap the values of two variables.
+
+let x = 5;
+let y = 4;
+let swap = x;
+
+x = y;
+y = swap;
+//console.log(x,y,swap)
