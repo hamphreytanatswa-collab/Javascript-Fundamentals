@@ -73,7 +73,12 @@ let username = prompt("What's your name newbie?");
 //console.log(username);
 alert("Nice to meet you " + username +".");
 
+//12.Ask for two numbers and display their sum.
 
+let number1 = Number(prompt("Enter your 1st number"));
+let number2 = Number(prompt("Enter you 2nd number"));
+let sum1 = alert("Sum: " + number1 + number2)
+//console.log(number1 + number2);
 
 
 
