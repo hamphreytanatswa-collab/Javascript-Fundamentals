@@ -145,6 +145,16 @@ else {
 }
 
 
+//20.Determine whether a student passed (50 or above).
+
+let mark = Number(prompt("Enter your mark"));
+
+if(isNaN(mark)){
+    alert("That's not right, try again");
+}
+else {
+    alert(mark>=50? "You passed" : "You failed");
+}
 
 
 
