@@ -84,3 +84,24 @@ console.log("Smallest number:", smallest);
 
 /********************************************************************** */
 
+// 6. Remove Duplicates from an Array
+
+let numbers = [1, 2, 2, 3, 4, 4, 5, 5, 6, 6];
+
+let unique = [];
+
+for (let i = 0; i < numbers.length; i++) {
+
+    if (!unique.includes(numbers[i])) {
+        unique.push(numbers[i]);
+    }
+
+}
+
+console.log(unique);
+
+/********************************************************************** */
+
+
+
+/********************************************************************** */
