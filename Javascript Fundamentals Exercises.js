@@ -300,4 +300,19 @@ for (let i = 1; i <= 5; i++) {
     console.log(stars);
 }
 
+// 40 Loops:
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(i);
+    } else {
+        // Do nothing
+    }
+}
+
+
+
+
+
+
+
 
