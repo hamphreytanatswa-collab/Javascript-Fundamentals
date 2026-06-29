@@ -349,3 +349,13 @@ for (let i = 1; i <= 5; i++) {
 // 46 Arrays:
 let fruits = ["apple", "banana", "cherry", "date", "elderberry"]; 
 console.log(fruits);
+
+// 47 Arrays:
+console.log(fruits[0]);
+
+
+
+
+
+
+
